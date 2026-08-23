@@ -63,3 +63,146 @@ SECURITY INFORMATION
 │      MONITOR         │
 │ Security Experience  │
 └──────────────────────┘
+
+USER
+  │
+  ▼
+BROWSER
+  │
+  ▼
+index.html
+  │
+  ▼
+┌─────────────────────────────┐
+│     SECURITY DASHBOARD      │
+├─────────────────────────────┤
+│ Status                      │
+│ Scanning                    │
+│ Monitoring                  │
+│ Analytics                   │
+│ Visualization               │
+└──────────────┬──────────────┘
+               │
+               ▼
+        API COMMUNICATION
+               │
+               ▼
+          BACKEND/API
+               │
+               ▼
+       SYSTEM / SECURITY DATA
+       INPUT
+         │
+         ▼
+   ┌───────────┐
+   │   DATA    │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │  PROCESS  │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │  ANALYZE  │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │ VISUALIZE │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │   USER    │
+   │  ACTION   │
+   └───────────┘
+
+DARK INTERFACE
+      +
+HIGH CONTRAST
+      +
+DATA VISUALIZATION
+      +
+SECURITY SIGNALS
+      ↓
+CYBERSECURITY EXPERIENCE
+
+┌──────────────┐
+│     IDEA     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ AI PROMPTING │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│  PROTOTYPING │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ DEVELOPMENT  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    TEST      │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    DEBUG     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   REFINE     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    DEPLOY    │
+└──────────────┘
+antivirus-security-dashboard/
+│
+├── 📁 backend/
+│   └── Backend / API functionality
+│
+├── 📄 index.html
+│   └── Main dashboard frontend
+│
+├── 📄 README.md
+│   └── Project documentation
+│
+└── 📄 SETUP.md
+    └── Setup & configuration instructions
+
+┌──────────────────────────────┐
+│        GITHUB PAGES          │
+│                              │
+│          index.html          │
+│       STATIC FRONTEND        │
+└──────────────┬───────────────┘
+               │
+               │ API REQUESTS
+               ▼
+┌──────────────────────────────┐
+│       BACKEND SERVICE        │
+│                              │
+│          backend/            │
+│        API / Services        │
+└──────────────────────────────┘
+
+LOCAL DEVELOPMENT
+       │
+       ▼
+    GIT COMMIT
+       │
+       ▼
+ GITHUB REPOSITORY
+       │
+       ▼
+   MAIN BRANCH
+       │
+       ▼
+ GITHUB PAGES
+       │
+       ▼
+  LIVE DASHBOARD
